@@ -20,13 +20,15 @@
 
 #searchBar{
     display: flex;
-    margin-left: 4px;
+    margin-left:16px;
 
 }
 
 #searchBarInput{
-    /* padding-left: 4px; */
+    
+    font-size: 1.2rem;
     background-color: lightgreen ;
+    color: white;
     border: none;
     outline: none;
     width: 90%;
@@ -35,6 +37,7 @@
 }
 
 input::placeholder{
+    font-size: 1.2rem;
     color: black;
     opacity: 0.6;
 }
@@ -43,28 +46,33 @@ input::placeholder{
     background-color: lightgreen ;
     border: none;
     background:transparent;
-    color:black;
+    color:rgb(252, 249, 249);
     font-size: 1.5rem;
 
 }
 #info{
     line-height: 0.5rem;
     margin-top: 16px;
+    color: wheat;
 }
 #info h3{
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0.6em;
+    color: wheat;
 }
-
+#description, #temperature{
+    font-size: 1.2rem;
+    color: aliceblue ;
+}
 #extraInfo{
     position: absolute;
     bottom: 5px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    color:black;
+    color:rgb(253, 252, 252);
     padding-bottom: 30px;
 }
 .tempInfo,.windInfo{
