@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#app{
+    position: relative;
+    width: 35vw;
+    height: 80vh;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 40px 0px;
+    overflow: hidden;
+    border-radius: 35px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+#searchBar{
+    display: flex;
+    margin-left: 4px;
+
+}
+
+#searchBarInput{
+    /* padding-left: 4px; */
+    background-color: lightgreen ;
+    border: none;
+    outline: none;
+    width: 90%;
+    background: transparent;
+    border-bottom: solid 1px lightblue;
+}
+
+input::placeholder{
+    color: black;
+    opacity: 0.6;
+}
+
+#searchIcon{
+    background-color: lightgreen ;
+    border: none;
+    background:transparent;
+    color:black;
+    font-size: 1.5rem;
+
+}
+#info{
+    line-height: 0.5rem;
+    margin-top: 16px;
+}
+#info h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0.6em;
+}
+
+#extraInfo{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color:black;
+    padding-bottom: 30px;
+}
+.tempInfo,.windInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#extraInfo h5{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
